@@ -1,7 +1,7 @@
 FROM maven:3.6.3-jdk-8
 MAINTAINER Alban Tual <tual.alban@gmail.com>
 
-ENV PROTOBUF_VERSION="25.0"
+ENV PROTOBUF_VERSION="22.1"
 
 # Download and install Protobuf
 RUN BUILD_DEPS="wget" \
